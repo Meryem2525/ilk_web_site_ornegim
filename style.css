@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(arka\ fon.jpg);
+    background-size: cover;
+}
+.box{
+    width:  450px;
+    background: #6b5858;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+    text-decoration: none;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+  padding: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.box img:hover{
+    transform: scale(0.9);
+
+}
+.box p{
+    text-align: justify;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+margin: 6px;
+list-style-type: none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all;
+}
+
+.box li a:hover{
+
+    color: rgb(103, 72, 72);
+}
